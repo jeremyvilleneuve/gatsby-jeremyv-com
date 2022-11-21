@@ -9,15 +9,15 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `jeremyv.com`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Jeremy Villeneuve`,
+      summary: `consultant for DevOps, programming, project and team management.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Personal site for Jeremy Villeneuve`,
+    siteUrl: `https:\\jeremyv.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `jvtexan`,
     },
   },
   plugins: [
@@ -25,7 +25,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
+        path: `${__dirname}/content/jeremyv`,
         name: `blog`,
       },
     },
@@ -102,7 +102,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "jeremyv.com RSS",
           },
         ],
       },

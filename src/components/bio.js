@@ -36,7 +36,7 @@ const Bio = () => {
         className="bio-avatar"
         layout="fixed"
         formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.png"
+        src="../images/jv-profile-pic.jpg"
         width={50}
         height={50}
         quality={95}
@@ -47,7 +47,11 @@ const Bio = () => {
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
+            Follow on Twitter for new articles
+          </a>
+          {` and `}
+          <a href={`https://www.linkedin.com/learning/instructors/jeremy-villeneuve`}>
+            check out my courses on LinkedIn Learning
           </a>
         </p>
       )}
