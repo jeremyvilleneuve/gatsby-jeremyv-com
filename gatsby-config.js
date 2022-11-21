@@ -15,7 +15,7 @@ module.exports = {
       summary: `consultant for DevOps, programming, project and team management.`,
     },
     description: `Personal site for Jeremy Villeneuve`,
-    siteUrl: `https:\\jeremyv.com`,
+    siteUrl: `https://jeremyv.com`,
     social: {
       twitter: `jvtexan`,
     },
